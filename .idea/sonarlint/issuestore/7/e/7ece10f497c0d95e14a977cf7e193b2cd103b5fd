@@ -1,0 +1,17 @@
+
+usquid:S00117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Äè‚ıÿÿÿÿ8ĞèòÅ“-
+usquid:UselessImportCheck"JRemove this unused import 'net.i2p.crypto.eddsa.spec.EdDSAPrivateKeySpec'.(¶ˆ¬8‰ûÅ“-
+Fsquid:S1148D"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ñ¡ì-
+Jsquid:S1602]",Remove useless curly braces around statement(’…ôã8¿ıÇ“-
+nsquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(¯ù‰±úÿÿÿÿ8äğöÅ“-
+xsquid:S00115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìë— 8Ğ¿ìÅ“-
+Gsquid:S2629A"$Invoke method(s) only conditionally.(Ä¤Â·øÿÿÿÿ8ĞÏªì-
+Isquid:S1168a"+Return an empty collection instead of null.(¥¹ï8¿ùñÆ“-
+Fsquid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Âñ÷Æ“-
+Fsquid:S1148u"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¶ÍÂì-
+„squid:S3457A"aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(Ä¤Â·øÿÿÿÿ8ĞÏªì-
+nsquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(î•Óíûÿÿÿÿ8„¡É“-
+8squid:S2275A"Not enough arguments.(Ä¤Â·øÿÿÿÿ8ĞÏªì-
+~squid:S00115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚Ä¸æşÿÿÿÿ8Ğ¿ìÅ“-
+squid:S1488†"[Immediately return this expression instead of assigning it to the temporary variable "arr".(ãµÇËùÿÿÿÿ8µèŒÉ“-
+usquid:S00117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ıæÏıÿÿÿÿ8ÌãõÅ“-
