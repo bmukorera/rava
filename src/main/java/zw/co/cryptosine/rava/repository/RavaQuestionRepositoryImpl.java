@@ -13,21 +13,19 @@ import com.google.gson.Gson;
 import net.i2p.crypto.eddsa.EdDSAPrivateKey;
 import net.i2p.crypto.eddsa.EdDSAPublicKey;
 import net.i2p.crypto.eddsa.Utils;
-import net.i2p.crypto.eddsa.spec.EdDSANamedCurveTable;
-import net.i2p.crypto.eddsa.spec.EdDSAPrivateKeySpec;
-import net.i2p.crypto.eddsa.spec.EdDSAPublicKeySpec;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.env.Environment;
 import zw.co.cryptosine.rava.model.RavaQuestion;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.security.KeyPair;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class RavaQuestionRepositoryImpl implements RavaQuestionRepository {
 
@@ -43,10 +41,16 @@ public class RavaQuestionRepositoryImpl implements RavaQuestionRepository {
         this.keyPair = keyPair;
     }
 
+    private Environment environment;
+
+    public void setEnvironment(Environment environment) {
+        this.environment = environment;
+    }
+
     public RavaQuestionRepositoryImpl() {
         buildKeys();
         BigchainDbConfigBuilder
-                .baseUrl("https://test.bigchaindb.com")
+                .baseUrl("http://localhost:9984/")
                 .setup();
     }
 
@@ -61,11 +65,13 @@ public class RavaQuestionRepositoryImpl implements RavaQuestionRepository {
                     .operation(Operations.CREATE)
                     .buildAndSign((EdDSAPublicKey) keyPair.getPublic(), (EdDSAPrivateKey) keyPair.getPrivate())
                     .sendTransaction();
-
-            LOGGER.info("transaction created {} \n{}",createTransaction.toString());
-
+            if(LOGGER.isDebugEnabled()){
+                LOGGER.info("transaction created {} \n{}",createTransaction.toString());
+            }
         } catch (IOException e) {
-            e.printStackTrace();
+            if(LOGGER.isDebugEnabled()){
+                LOGGER.error("{}",e);
+            }
         }
         return ravaQuestion;
     }
@@ -78,23 +84,29 @@ public class RavaQuestionRepositoryImpl implements RavaQuestionRepository {
             List<Asset> assetsList = assets.getAssets();
             assetsList.forEach(asset -> {
                 try{
-                    LOGGER.info(" ASSET =>\n {} ",tojson(asset.getData()));
+                    if(LOGGER.isDebugEnabled()){
+                        LOGGER.info(" ASSET =>\n {} ",tojson(asset.getData()));
+                    }
                     RavaQuestion ravaQuestion = stringToObject(tojson(asset.getData()),RavaQuestion.class);//(RavaQuestion)asset.getData();
                     ravaQuestionList.add(ravaQuestion);
                 }catch (Exception e){
-                    LOGGER.error("not instance of rava {}",e.getMessage());
+                    if(LOGGER.isDebugEnabled()){
+                        LOGGER.error("not instance of rava {}",e.getMessage());
+                    }
                 }
-
             });
         } catch (IOException e) {
-            e.printStackTrace();
+            if(LOGGER.isDebugEnabled()){
+                e.printStackTrace();
+            }
         }
-        LOGGER.info("result list size {}",ravaQuestionList.size());
+        if(LOGGER.isDebugEnabled()){
+            LOGGER.info("result list size {}",ravaQuestionList.size());
+        }
         ravaQuestionList.forEach(ravaQuestion -> {
             LOGGER.info(ravaQuestion.toString());
         });
-
-        return null;
+        return ravaQuestionList;
     }
 
     private void buildKeys(){
@@ -123,7 +135,6 @@ public class RavaQuestionRepositoryImpl implements RavaQuestionRepository {
         ObjectMapper mapper=new ObjectMapper();
         try {
             return mapper.writeValueAsString(obj);
-
         } catch (JsonProcessingException e) {
         return "";
 

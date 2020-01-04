@@ -25,3 +25,8 @@ p
 @src/main/java/zw/co/cryptosine/rava/service/RavaServiceImpl.java,3/b/3b58ccbaaafe21076262ddba2351b0acc16b77f6
 ~
 Nsrc/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.java,7/e/7ece10f497c0d95e14a977cf7e193b2cd103b5fd
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+Y
+)src/main/resources/application.properties,0/6/06f65155ec73600b9fc5c4dc2883d4bb84d8e284

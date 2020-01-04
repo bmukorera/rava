@@ -2,142 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afbe4187-747e-4d25-a247-4c3aeb0b590c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/api/RavaSearchApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38fd4a268514461454945927df7441a67028adf5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38fd4a268514461454945927df7441a67028adf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5493cb6a184672b42479d06e111f32af9d8122b3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5493cb6a184672b42479d06e111f32af9d8122b3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54ced266ac13729325e425ff4bbc3419ccfbb444" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54ced266ac13729325e425ff4bbc3419ccfbb444" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ece10f497c0d95e14a977cf7e193b2cd103b5fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ece10f497c0d95e14a977cf7e193b2cd103b5fd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e9f21d575d5c800d029eb7b54825cd11064788d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e9f21d575d5c800d029eb7b54825cd11064788d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/config/ServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/config/ServiceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zw/co/cryptosine/rava/service/RavaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zw/co/cryptosine/rava/service/RavaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/rava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/config/ServiceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/config/ServiceConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/exception/RavaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/exception/RavaException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/zw/co/cryptosine/rava/service/RavaServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/zw/co/cryptosine/rava/service/RavaServiceTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/config/ServiceConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/zw/co/cryptosine/rava/service/RavaServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2706#2707#0" expanded="true" />
-                <element signature="e#2750#2751#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/service/RavaService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/service/RavaServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#saveRavaQuestion#0;class#RavaServiceImpl#0" />
-                <element signature="method#validate#0;class#RavaServiceImpl#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/RavaApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#buildKeys#0;class#RavaQuestionRepositoryImpl#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/RavaQuestion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/i2p/crypto/eddsa/0.2.0/eddsa-0.2.0.jar!/net/i2p/crypto/eddsa/spec/EdDSANamedCurveTable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" column="50" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,34 +50,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/util/SecurityUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/exception/RavaExcption.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/util/SecurityUtilImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/chain/RavaChain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/Block.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/chain/RavaChainImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/enums/RavaSubjects.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/enums/RavaStudentCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/RavaAnswers.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/exception/RavaException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/config/ServiceConfiguration.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/RavaApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/RavaQuestion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/RavaAnswer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/service/RavaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/service/RavaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/zw/co/cryptosine/rava/service/RavaServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -199,68 +63,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
-  </component>
+  <component name="ProjectId" id="1Oszp5P11HSb6guRytOYiZbNVfd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="rava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rava" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552555136057" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552561486068" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -280,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RavaServiceTest.shouldReturnREsult">
+  <component name="RunManager" selected="JUnit.RavaServiceTest">
     <configuration name="RavaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zw.co.cryptosine.rava.RavaApplication" />
       <module name="rava" />
@@ -325,22 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RavaServiceTest.shouldReturnSuccessIfInfomationIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zw.co.cryptosine.rava.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="zw.co.cryptosine.rava.service" />
-      <option name="MAIN_CLASS_NAME" value="zw.co.cryptosine.rava.service.RavaServiceTest" />
-      <option name="METHOD_NAME" value="shouldReturnSuccessIfInfomationIsValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RavaServiceTest.shouldThrowExceptionIfQuestionOIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rava" />
       <extension name="coverage">
@@ -357,6 +150,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RavaServiceTest.shouldThrowExceptionWhenStudentCategoryIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zw.co.cryptosine.rava.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zw.co.cryptosine.rava.service" />
+      <option name="MAIN_CLASS_NAME" value="zw.co.cryptosine.rava.service.RavaServiceTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWhenStudentCategoryIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RavaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rava" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="zw.co.cryptosine.rava.RavaApplication" />
@@ -366,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RavaServiceTest.shouldReturnREsult" />
         <item itemvalue="JUnit.RavaServiceTest" />
+        <item itemvalue="JUnit.RavaServiceTest.shouldThrowExceptionWhenStudentCategoryIsNull" />
+        <item itemvalue="JUnit.RavaServiceTest.shouldReturnREsult" />
         <item itemvalue="Application.RavaApplication" />
         <item itemvalue="JUnit.RavaServiceTest.shouldThrowExceptionIfQuestionOIsNull" />
-        <item itemvalue="JUnit.RavaServiceTest.shouldReturnSuccessIfInfomationIsValid" />
       </list>
     </recent_temporary>
   </component>
@@ -391,345 +200,34 @@
       <workItem from="1551005735686" duration="1051000" />
       <workItem from="1551428545536" duration="9539000" />
       <workItem from="1551860242568" duration="27000" />
-      <workItem from="1552554918584" duration="334000" />
+      <workItem from="1552554918584" duration="777000" />
+      <workItem from="1553159711696" duration="495000" />
+      <workItem from="1553982936055" duration="177000" />
+      <workItem from="1556665767861" duration="17000" />
+      <workItem from="1564781273581" duration="102000" />
+      <workItem from="1564781671924" duration="1027000" />
+      <workItem from="1571559034347" duration="1345000" />
+      <workItem from="1576704767641" duration="223000" />
+      <workItem from="1577737764035" duration="121000" />
+      <workItem from="1578002599742" duration="1135000" />
+      <workItem from="1578061562964" duration="6921000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="RavaServiceTest - 2019.03.01 at 10h 24m 11s.xml">
-      <configuration name="RavaServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RavaServiceTest - 2019.03.01 at 11h 25m 22s.xml">
-      <configuration name="RavaServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RavaServiceTest - 2019.03.01 at 12h 22m 39s.xml">
-      <configuration name="RavaServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RavaServiceTest_shouldReturnREsult - 2019.03.01 at 13h 07m 05s.xml">
-      <configuration name="RavaServiceTest.shouldReturnREsult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RavaServiceTest_shouldReturnREsult - 2019.03.01 at 13h 10m 55s.xml">
-      <configuration name="RavaServiceTest.shouldReturnREsult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RavaServiceTest_shouldReturnREsult - 2019.03.01 at 13h 13m 39s.xml">
-      <configuration name="RavaServiceTest.shouldReturnREsult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RavaServiceTest_shouldReturnREsult - 2019.03.01 at 13h 19m 10s.xml">
-      <configuration name="RavaServiceTest.shouldReturnREsult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RavaServiceTest_shouldReturnREsult - 2019.03.01 at 13h 20m 48s.xml">
-      <configuration name="RavaServiceTest.shouldReturnREsult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RavaServiceTest_shouldReturnREsult - 2019.03.01 at 13h 22m 48s.xml">
-      <configuration name="RavaServiceTest.shouldReturnREsult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RavaServiceTest_shouldReturnREsult - 2019.03.01 at 14h 05m 04s.xml">
-      <configuration name="RavaServiceTest.shouldReturnREsult" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33326000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5885226" weight="0.43850267" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993895" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Docker" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.41147742" side_tool="true" weight="0.4513369" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4981685" weight="0.32941177" />
-      <window_info anchor="bottom" id="SonarLint" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4981685" weight="0.32941177" />
-      <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.4993895" weight="0.32941177" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.21489622" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/util.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/util/SecurityUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/chain/RavaChain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/util/SecurityUtilImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/Block.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/chain/RavaChainImpl.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/i2p/crypto/eddsa/0.2.0/eddsa-0.2.0.jar!/net/i2p/crypto/eddsa/KeyPairGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/exception/RavaException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/i2p/crypto/eddsa/0.2.0/eddsa-0.2.0.jar!/net/i2p/crypto/eddsa/spec/EdDSAPublicKeySpec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../software/maven/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/security/KeyPairGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8118">
-          <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/i2p/crypto/eddsa/0.2.0/eddsa-0.2.0.jar!/net/i2p/crypto/eddsa/EdDSAPrivateKey.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/enums/RavaSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/enums/RavaStudentCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/RavaAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/config/ServiceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/zw/co/cryptosine/rava/service/RavaServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2706#2707#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/service/RavaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/service/RavaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#saveRavaQuestion#0;class#RavaServiceImpl#0" />
-            <element signature="method#validate#0;class#RavaServiceImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/RavaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/RavaQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/i2p/crypto/eddsa/0.2.0/eddsa-0.2.0.jar!/net/i2p/crypto/eddsa/spec/EdDSANamedCurveTable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="50" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#buildKeys#0;class#RavaQuestionRepositoryImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>rava</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.google.code.gson:gson:2.8.5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

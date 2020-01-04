@@ -1,6 +1,7 @@
 /Users/bmukorera/Documents/code/blockchain/rava/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.java
 /Users/bmukorera/Documents/code/blockchain/rava/src/main/java/zw/co/cryptosine/rava/model/RavaAnswer.java
 /Users/bmukorera/Documents/code/blockchain/rava/src/main/java/zw/co/cryptosine/rava/exception/RavaException.java
+/Users/bmukorera/Documents/code/blockchain/rava/src/main/java/zw/co/cryptosine/rava/api/RavaSearchApi.java
 /Users/bmukorera/Documents/code/blockchain/rava/src/main/java/zw/co/cryptosine/rava/RavaApplication.java
 /Users/bmukorera/Documents/code/blockchain/rava/src/main/java/zw/co/cryptosine/rava/model/RavaQuestion.java
 /Users/bmukorera/Documents/code/blockchain/rava/src/main/java/zw/co/cryptosine/rava/service/RavaServiceImpl.java

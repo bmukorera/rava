@@ -16,6 +16,9 @@ import zw.co.cryptosine.rava.repository.RavaQuestionRepositoryImpl;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+
 @RunWith(SpringRunner.class)
 public class RavaServiceTest {
 
@@ -77,6 +80,6 @@ public class RavaServiceTest {
 
     @Test
     public void shouldReturnREsult(){
-        ravaService.search("GRADE7");
+        assertNotNull(ravaService.search("GRADE7"));
     }
 }
