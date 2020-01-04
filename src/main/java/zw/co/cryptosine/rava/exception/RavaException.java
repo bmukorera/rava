@@ -2,12 +2,16 @@ package zw.co.cryptosine.rava.exception;
 
 public class RavaException extends RuntimeException{
 
-    private String field;
-    private String message;
-    private boolean requiredMissing;
+    private final String field;
+    private final String message;
+    private final boolean requiredMissing;
 
     public RavaException(String message) {
         super(message);
+        this.field="";
+        this.message=message;
+        this.requiredMissing=false;
+
     }
 
     public RavaException(String field, String message, boolean requiredMissing) {
@@ -24,24 +28,17 @@ public class RavaException extends RuntimeException{
         return field;
     }
 
-    public void setField(String field) {
-        this.field = field;
-    }
+
 
     @Override
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
+
 
     public boolean isRequiredMissing() {
         return requiredMissing;
     }
 
-    public void setRequiredMissing(boolean requiredMissing) {
-        this.requiredMissing = requiredMissing;
-    }
 }

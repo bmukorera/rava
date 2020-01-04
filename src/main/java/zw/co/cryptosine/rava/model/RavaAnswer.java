@@ -2,7 +2,10 @@ package zw.co.cryptosine.rava.model;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-public class RavaAnswer {
+import java.io.Serializable;
+
+
+public class RavaAnswer implements Serializable {
     private String answer;
     private boolean correct;
 

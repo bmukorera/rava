@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afbe4187-747e-4d25-a247-4c3aeb0b590c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/api/RavaSearchApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38fd4a268514461454945927df7441a67028adf5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38fd4a268514461454945927df7441a67028adf5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5493cb6a184672b42479d06e111f32af9d8122b3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5493cb6a184672b42479d06e111f32af9d8122b3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54ced266ac13729325e425ff4bbc3419ccfbb444" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54ced266ac13729325e425ff4bbc3419ccfbb444" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ece10f497c0d95e14a977cf7e193b2cd103b5fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ece10f497c0d95e14a977cf7e193b2cd103b5fd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e9f21d575d5c800d029eb7b54825cd11064788d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e9f21d575d5c800d029eb7b54825cd11064788d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/RavaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/RavaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/config/ServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/config/ServiceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/exception/RavaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/exception/RavaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/RavaAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/model/RavaAnswer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zw/co/cryptosine/rava/service/RavaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zw/co/cryptosine/rava/service/RavaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/rava.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/config/ServiceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/config/ServiceConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/exception/RavaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/exception/RavaException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zw/co/cryptosine/rava/repository/RavaQuestionRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/zw/co/cryptosine/rava/service/RavaServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/zw/co/cryptosine/rava/service/RavaServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/service/RavaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zw/co/cryptosine/rava/service/RavaServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +52,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552561486068" />
@@ -210,8 +196,16 @@
       <workItem from="1576704767641" duration="223000" />
       <workItem from="1577737764035" duration="121000" />
       <workItem from="1578002599742" duration="1135000" />
-      <workItem from="1578061562964" duration="6921000" />
+      <workItem from="1578061562964" duration="8355000" />
     </task>
+    <task id="LOCAL-00001" summary="adds Search API, updates Bean configurations and updates tests, adds new properties">
+      <created>1578150200572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578150200572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,5 +223,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adds Search API, updates Bean configurations and updates tests, adds new properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds Search API, updates Bean configurations and updates tests, adds new properties" />
   </component>
 </project>

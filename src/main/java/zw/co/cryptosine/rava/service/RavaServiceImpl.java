@@ -36,7 +36,7 @@ public class RavaServiceImpl implements RavaService{
             throw new RavaException("studentCategory","",true);
         }
         if(ravaQuestion.isMultipleChoice()&&ravaQuestion.getRavaAnswers().size()<2){
-            throw new RavaException("","Multichoice Requires more than 1 answer",false);
+            throw new RavaException("","Multiple choice Requires more than 1 answer",false);
         }
 
     }
